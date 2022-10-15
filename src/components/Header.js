@@ -48,7 +48,7 @@ const Header = () => {
             <button>Register</button>
           </div>
         </div>
-        {!toggle && <Nav toggle={toggle} />}
+        {toggle ? "" : <Nav setToggle={setToggle} />}
       </div>
     </header>
   );

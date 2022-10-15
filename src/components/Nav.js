@@ -1,4 +1,7 @@
 const Nav = (props) => {
+  const handleClick = () => {
+    props.setToggle(true);
+  };
   return (
     <nav
       className="nav"
@@ -8,20 +11,20 @@ const Nav = (props) => {
       data-aos-duration="500"
     >
       <ul className="nav-menu">
-        <a href="#article-one" onClick={props.toggle}>
+        <a href="#article-one" onClick={handleClick}>
           <li>Discover</li>
         </a>
-        <a href="#article-two">
+        <a href="#article-two" onClick={handleClick}>
           <li>Services</li>
         </a>
-        <a href="#article-four">
+        <a href="#article-four" onClick={handleClick}>
           <li>About Us</li>
         </a>
-        <a href="#contact">
+        <a href="#contact" onClick={handleClick}>
           <li>Contact Us</li>
         </a>
       </ul>
-      <div className="nav-login">
+      <div className="nav-login" onClick={handleClick}>
         <p>Login</p>
         <button>Register</button>
       </div>
