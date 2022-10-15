@@ -75,15 +75,16 @@ header {
       p {
         padding: 0.8rem 0;
       }
-    }
 
-    button {
-      padding: 1rem 2rem;
-      font-size: 1.1rem;
-      border-radius: 0.5rem;
-      color: #52cf3d;
-      font-weight: bold;
-      z-index: 2;
+      button {
+        padding: 1rem 2rem;
+        background: #fff;
+        font-size: 1.1rem;
+        border-radius: 0.5rem;
+        color: #52cf3d;
+        font-weight: bold;
+        z-index: 2;
+      }
     }
   }
 }
