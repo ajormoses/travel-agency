@@ -2,11 +2,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEarthAmerica } from "@fortawesome/free-solid-svg-icons";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
 
-import star from "./star.jpg";
+import star from "./star.png";
 import explorer from "./explorer.jpg";
 import arrow from "./arrow.jpg";
 import security from "./security.jpg";
-import support from "./support.jpg";
+import aeroplane from "./aeroplane.png";
+import aeroplanefumes from "./aeroplane-fumes.png";
 
 const ArticleOne = () => {
   return (
@@ -30,14 +31,10 @@ const ArticleOne = () => {
               <img src={star} className="star-one" alt="star-one" />
               <img src={star} className="star-two" alt="star-two" />
               <img src={star} className="star-three" alt="star-three" />
-              <img
-                className="aeroplane"
-                src="./images/aeroplane.png"
-                alt="aeroplane"
-              />
+              <img className="aeroplane" src={aeroplane} alt="aeroplane" />
               <img
                 className="aeroplane-fumes"
-                src="./images/aeroplane-fumes.png"
+                src={aeroplanefumes}
                 alt="aeroplane"
               />
             </div>

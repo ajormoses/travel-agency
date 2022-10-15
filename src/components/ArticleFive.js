@@ -1,5 +1,11 @@
 import Customers from "./Customers";
 
+import avatarOne from "./avatarOne.png";
+import avatarTwo from "./avatarTwo.png";
+import avatarThree from "./avatarThree.png";
+import globeOne from "./worldGlobe1.png";
+import globeTwo from "./worldGlobe2.png";
+
 const ArticleFive = () => {
   return (
     <article>
@@ -15,9 +21,9 @@ const ArticleFive = () => {
               data-aos="fade-right"
               data-aos-duration="1000"
             >
-              <img className="globe" src="./images/worldGlobe1.png" />
+              <img className="globe" src={globeOne} />
               <Customers
-                avatar="avatarOne.png"
+                avatar={avatarOne}
                 userName="Devon Lane"
                 text=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis accumsan
             felis bibendum convallis sodales"
@@ -29,9 +35,9 @@ const ArticleFive = () => {
               data-aos="fade-left"
               data-aos-duration="1000"
             >
-              <img className="globe--two" src="./images/worldGlobe2.png" />
+              <img className="globe--two" src={globeTwo} />
               <Customers
-                avatar="avatarTwo.png"
+                avatar={avatarTwo}
                 userName="Jenny Wilson"
                 text=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis accumsan
             felis bibendum convallis sodales"
@@ -40,7 +46,7 @@ const ArticleFive = () => {
             </div>
             <div className="third-testinomy" data-aos-duration="1000">
               <Customers
-                avatar="avatarThree.png"
+                avatar={avatarThree}
                 userName="Robert Fox"
                 text=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis accumsan
             felis bibendum convallis sodales"

@@ -23,8 +23,8 @@ const Nav = (props) => {
       </ul>
       <div className="nav-login">
         <p>Login</p>
-        <button>Register</button>
       </div>
+      <button>Register</button>
     </nav>
   );
 };

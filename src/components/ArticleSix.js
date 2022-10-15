@@ -1,4 +1,4 @@
-import React from "react";
+import couples from "./couples.png";
 
 const ArticleSix = () => {
   return (
@@ -9,7 +9,7 @@ const ArticleSix = () => {
           data-aos="flip-up"
           data-aos-duration="1000"
         >
-          <img className="couples" src="./images/couples.png" />
+          <img className="couples" src={couples} />
           <div className="article-six-text">
             <h1>
               Don't Miss The 50% Discount & Explore The Beauty Of The World

@@ -9,6 +9,13 @@ import "swiper/scss/navigation";
 import "swiper/scss/pagination";
 import "swiper/scss/autoplay";
 
+import imageOne from "./image1.png";
+import imageTwo from "./image2.png";
+import imageThree from "./image3.png";
+import imageFour from "./image4.png";
+import imageFive from "./image5.png";
+import imageSix from "./image6.png";
+
 const ArticleThree = () => {
   return (
     <article>
@@ -34,7 +41,7 @@ const ArticleThree = () => {
           >
             <SwiperSlide>
               <Tourism
-                image="image1.png"
+                image={imageOne}
                 cost="$200"
                 center="Great Wall Of China"
                 location="Beijing, China"
@@ -44,7 +51,7 @@ const ArticleThree = () => {
             </SwiperSlide>
             <SwiperSlide>
               <Tourism
-                image="image2.png"
+                image={imageTwo}
                 cost="$400"
                 center="Louvre Museum"
                 location="Paris, Ile-de-France, Franceosia"
@@ -54,7 +61,7 @@ const ArticleThree = () => {
             </SwiperSlide>
             <SwiperSlide>
               <Tourism
-                image="image3.png"
+                image={imageThree}
                 cost="$540"
                 center="Safdarjung Tomb"
                 location="New Delhi, DL, India"
@@ -64,7 +71,7 @@ const ArticleThree = () => {
             </SwiperSlide>
             <SwiperSlide>
               <Tourism
-                image="image4.png"
+                image={imageFour}
                 cost="$720"
                 center="Anitkabir Monument"
                 location="Ankara, Turkey"
@@ -74,7 +81,7 @@ const ArticleThree = () => {
             </SwiperSlide>
             <SwiperSlide>
               <Tourism
-                image="image5.png"
+                image={imageFive}
                 cost="$350"
                 center="Trevi Fountain"
                 location="Roma, Lazio, Italy"
@@ -84,7 +91,7 @@ const ArticleThree = () => {
             </SwiperSlide>
             <SwiperSlide>
               <Tourism
-                image="image6.png"
+                image={imageSix}
                 cost="$840"
                 center="Brown Concrete Tower"
                 location="Mexico City, CDMX Mexico"
@@ -95,7 +102,7 @@ const ArticleThree = () => {
           </Swiper>
           <div className="tour-desktop">
             <Tourism
-              image="image1.png"
+              image={imageOne}
               cost="$200"
               center="Great Wall Of China"
               location="Beijing, China"
@@ -103,7 +110,7 @@ const ArticleThree = () => {
               review="2.2k"
             />
             <Tourism
-              image="image2.png"
+              image={imageTwo}
               cost="$400"
               center="Louvre Museum"
               location="Paris, Ile-de-France, Franceosia"
@@ -111,7 +118,7 @@ const ArticleThree = () => {
               review="1.6k"
             />
             <Tourism
-              image="image3.png"
+              image={imageThree}
               cost="$540"
               center="Safdarjung Tomb"
               location="New Delhi, DL, India"
@@ -119,7 +126,7 @@ const ArticleThree = () => {
               review="3.6k"
             />
             <Tourism
-              image="image4.png"
+              image={imageFour}
               cost="$720"
               center="Anitkabir Monument"
               location="Ankara, Turkey"
@@ -127,7 +134,7 @@ const ArticleThree = () => {
               review="4k"
             />
             <Tourism
-              image="image5.png"
+              image={imageFive}
               cost="$350"
               center="Trevi Fountain"
               location="Roma, Lazio, Italy"
@@ -135,7 +142,7 @@ const ArticleThree = () => {
               review="5.2k"
             />
             <Tourism
-              image="image6.png"
+              image={imageSix}
               cost="$840"
               center="Brown Concrete Tower"
               location="Mexico City, CDMX Mexico"

@@ -12,7 +12,7 @@ const Header = () => {
   };
 
   return (
-    <header data-aos="fade-down" data-aos-duration="800">
+    <header>
       <div className="container">
         <div className="header">
           <h1 style={{ color: "#000000" }}>

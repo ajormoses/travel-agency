@@ -13,17 +13,13 @@ const ArticleTwo = () => {
     <article>
       <div className="container">
         <div className="article-two" id="article-two">
-          <div
-            className="article-two-header"
-            data-aos="fade-right"
-            data-aos-duration="1000"
-          >
+          <div className="article-two-header">
             <h4 style={{ color: "#CD0118" }}>WHAT WE OFFER</h4>
             <h1>We Offer Best Services</h1>
           </div>
           <div
             className="tour-guide tour"
-            data-aos="fade-left"
+            data-aos="fade-up-right"
             data-aos-duration="1100"
           >
             <FontAwesomeIcon className="icon" icon={faSuitcaseRolling} />
@@ -35,7 +31,7 @@ const ArticleTwo = () => {
           </div>
           <div
             className="booking tour"
-            data-aos="fade-up-right"
+            data-aos="fade-up-left"
             data-aos-duration="1200"
           >
             <FontAwesomeIcon className="icon" icon={faNewspaper} />
@@ -47,7 +43,7 @@ const ArticleTwo = () => {
           </div>
           <div
             className="choices tour"
-            data-aos="fade-up-left"
+            data-aos="fade-down-right"
             data-aos-duration="1300"
           >
             <FontAwesomeIcon className="icon" icon={faLocation} />

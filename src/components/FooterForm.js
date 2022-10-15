@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import fb from "./fb.png";
+import twitter from "./twitter.png";
+import instagram from "./instagram.png";
 
 const FooterForm = () => {
   const [formData, setFormData] = useState({
@@ -43,9 +46,9 @@ const FooterForm = () => {
         </button>
       </form>
       <div className="social-media">
-        <img src="./images/fb.png" alt="facebook" />
-        <img src="./images/twitter.png" alt="twitter" />
-        <img src="./images/instagram.png" alt="instagram" />
+        <img src={fb} alt="facebook" />
+        <img src={twitter} alt="twitter" />
+        <img src={instagram} alt="instagram" />
       </div>
     </div>
   );
