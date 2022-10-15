@@ -1,5 +1,5 @@
 import star from "./star.png";
-import femaleTour from "./femaleTour.jpg";
+import femaleTour from "./femaleTour.png";
 import mark from "./mark.png";
 import love from "./inlove-face.png";
 import smile from "./smile-face.png";

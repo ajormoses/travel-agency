@@ -1,7 +1,12 @@
+import { useState } from "react";
+
 const Nav = (props) => {
+  // const [isActive, setIsActive] = useState(props.toggle);
+
   const handleClick = () => {
     props.setToggle(true);
   };
+
   return (
     <nav
       className="nav"

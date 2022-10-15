@@ -3,7 +3,7 @@ import { faEarthAmerica } from "@fortawesome/free-solid-svg-icons";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
 
 import star from "./star.png";
-import explorer from "./explorer.jpg";
+import explorer from "./explorer.png";
 import arrow from "./arrow.jpg";
 import security from "./security.jpg";
 import aeroplane from "./aeroplane.png";
