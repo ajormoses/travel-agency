@@ -1,16 +1,26 @@
 {
   "files": {
-    "main.css": "/travel-agency/static/css/main.c27a3146.css",
-    "main.js": "/travel-agency/static/js/main.d85ab7b6.js",
+    "main.css": "/travel-agency/static/css/main.5a430662.css",
+    "main.js": "/travel-agency/static/js/main.a6572e91.js",
     "static/js/787.8d9b3c30.chunk.js": "/travel-agency/static/js/787.8d9b3c30.chunk.js",
+    "static/media/couples.png": "/travel-agency/static/media/couples.9d6f25f4e561b182d663.png",
     "static/media/explorer.jpg": "/travel-agency/static/media/explorer.8f43ec149cf8bdd21367.jpg",
+    "static/media/femaleTour.jpg": "/travel-agency/static/media/femaleTour.3ab7a3f9209201f6456f.jpg",
+    "static/media/image2.png": "/travel-agency/static/media/image2.7812d15a8e6e12c3e212.png",
+    "static/media/image5.png": "/travel-agency/static/media/image5.7812d15a8e6e12c3e212.png",
+    "static/media/image4.png": "/travel-agency/static/media/image4.f162c44b3047d2c198e9.png",
+    "static/media/image1.png": "/travel-agency/static/media/image1.4f1dfba3575a094e1bc0.png",
+    "static/media/image6.png": "/travel-agency/static/media/image6.2c30e05e419407727326.png",
+    "static/media/image3.png": "/travel-agency/static/media/image3.7fb73d061cabf3484ce6.png",
+    "static/media/worldGlobe2.png": "/travel-agency/static/media/worldGlobe2.9cc9cd1fee085376f937.png",
+    "static/media/worldGlobe1.png": "/travel-agency/static/media/worldGlobe1.705359497a9611120a90.png",
     "index.html": "/travel-agency/index.html",
-    "main.c27a3146.css.map": "/travel-agency/static/css/main.c27a3146.css.map",
-    "main.d85ab7b6.js.map": "/travel-agency/static/js/main.d85ab7b6.js.map",
+    "main.5a430662.css.map": "/travel-agency/static/css/main.5a430662.css.map",
+    "main.a6572e91.js.map": "/travel-agency/static/js/main.a6572e91.js.map",
     "787.8d9b3c30.chunk.js.map": "/travel-agency/static/js/787.8d9b3c30.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c27a3146.css",
-    "static/js/main.d85ab7b6.js"
+    "static/css/main.5a430662.css",
+    "static/js/main.a6572e91.js"
   ]
 }
